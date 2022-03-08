@@ -20,6 +20,7 @@ def sample():
             s=pd.read_json(json_data)
             p=joblib.load('filename.pkl')
             r=p.predict(s)
+            print("hi")
             return str(r)
         except Exception as e:
             return (e)
