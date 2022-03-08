@@ -8,4 +8,4 @@ RUN pip install -r requirements.txt
 
 
 
-CMD ["python","./ml/main.py"]
+CMD ["python","main.py"]
